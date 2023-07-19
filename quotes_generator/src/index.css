@@ -1,0 +1,39 @@
+
+div {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	position: fixed;
+	top: 0rem;
+	width: 100vw;
+}
+
+button {
+	position: fixed;
+	top: 4rem;
+}
+
+article {
+	position: relative;
+	width: 80%;
+	font-weight: 475;
+	font-size: 1.2rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	button {
+		top: 4rem;
+	}
+}
